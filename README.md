@@ -29,14 +29,6 @@
 ### 모델 pth 파일
 > https://drive.google.com/file/d/174Cz_tF1uUbirboQFRPmwsfzVQys4_hG/view?usp=sharing
 #Evaluate
-> TensorBoard를 사옹하였다.
-## Precision
-![Precision](https://github.com/woowal/YOLO_NAS_Custom_Data/assets/61446702/61e451ef-4dbb-4a6d-8f23-5e76dbbabbfd)
-### 분석
-> 그래프 방향의 변동을 있으나 전체적으로 꾸준히 상승하였다. 하지만 그럼에도 0.2 정도에 그치는 낮은 수치를 보인다.
-## Recall
-![Recall](https://github.com/woowal/YOLO_NAS_Custom_Data/assets/61446702/0aff39c4-6e2e-4d53-8705-e8fd5567236f)
-### 분석
-> 0~20의 Epoch에서 0.3정도와 1 사이로 크게 변화하다가 25부터 거의 1에 수렴한다.
-## 결론
-> Recall은 1에 가깜고 Precision은 매우 낮은 것으로 보아 인식에 대한 Cut-Off가 낮은 것으로 보여진다.
+### PR Curve
+![myplot](https://github.com/woowal/YOLO_NAS_Custom_Data/assets/61446702/ddd7088c-a6a3-4a47-b02e-de77dc01beb3)
+> 과정: https://velog.io/@jijilee4/Yolo-Nas-%EB%AA%A8%EB%8D%B8%EC%9D%98-PR-Curve
